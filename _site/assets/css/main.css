@@ -1,0 +1,71 @@
+/* assets/css/main.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  margin: 40px;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.centered-image {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+}
+
+.centered-image img {
+  width: 300px; /* Set the desired width of the image */
+  height: auto; /* Maintains the aspect ratio of the image */
+  border-radius: 0%; /* Makes the image round */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.timeline-event {
+  padding: 10px 20px;
+  border-left: 2px solid #007acc;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #007acc;
+}
+
+.timeline-content {
+  margin-left: 10px;
+}
+
+.justified-content {
+  text-align: justify;
+  color: #555;
+  max-width: 800px; /* Sets a good margin width for the content */
+  margin: 0 auto; /* Centers the content horizontally */
+}
+
+h1, h2 {
+  text-align: justify ;
+  color: #333;
+}
+
+p, ul {
+  text-align: justify;
+  color: #555;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
